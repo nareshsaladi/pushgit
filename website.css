@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.body {
+    margin: 0px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.bg-container {
+    background-color: #f57f94;
+    background-size: cover;
+    font-family: "Roboto";
+    padding: 15px;
+    color: #1c1857;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+.profile-bg-container {
+    flex-wrap: wrap;
+}
+
+.details {
+    font-size: 10px;
+}
+
+.person-name-container {
+    margin-left: 15px;
+}
+
+.parson-name {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.vertical-line {
+    width: 2px;
+    height: 150px;
+    margin-left: 25px;
+    margin-right: 5px;
+    background-color: #1c1857;
+}
+
+.horizontal-line {
+    background-color: #1c1857;
+    width: 90%;
+    height: 2px;
+    margin: 0px;
+    margin-left: 50px;
+
+}
+
+.skills-awards-bg-container {
+    flex-wrap: wrap;
+}
+
+.icon-details-container {
+    text-align: center;
+}
+
+.icon {
+    font-size: 50px;
+    border: 2px solid #1c1857;
+    background-color: #f57f94;
+    border-radius: 50px;
+    padding: 8px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+
+}
+
+.work-details-bg-container {
+    flex-wrap: wrap;
+}
+
+.year-margins {
+    margin-bottom: 32px;
+}
+
+.span-style {
+    font-weight: bold;
+}
+
+.interests-bg-container {
+    flex-wrap: wrap;
+}
+
+.interests-container {
+    margin-left: 25px;
+}
+
+.skills-margin-styles {
+    margin-bottom: 25px;
+}
+
+.dots {
+    border: 2px solid #1c1857;
+    height: 4px;
+    background-color: #1c1857;
+    border-radius: 50px;
+    padding: 5px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+
+.awards-years {
+    margin-bottom: 32px;
+}
+
+.verticle-size {
+    height: 250px;
+    margin-top: 0px;
+}
+
+.education-bg-container {
+    flex-wrap: wrap;
+}
+
+.icon-size {
+    height: 40px;
+    width: 40px;
+}
+
+.interests-container {
+    text-align: center;
+}
+
+
+
+@media (min-width: 768px) {
+    .details {
+        font-size: 15px;
+    }
+
+    .person-name-container {
+        margin-left: 20px;
+    }
+
+    .parson-name {
+        font-size: 30px;
+    }
+
+    .icon {
+        font-size: 70px;
+        padding: 10px;
+        border-radius: 52%;
+    }
+
+    .size {
+        height: 90px;
+        width: 90px;
+    }
+
+    .interests-container {
+        margin-left: 40px;
+    }
+
+
+}
+
+@media (min-width: 992px) {
+    .details {
+        font-size: 20px;
+    }
+
+    .person-name-container {
+        margin-left: 25px;
+    }
+
+    .parson-name {
+        font-size: 35px;
+    }
+
+    .icon {
+        font-size: 80px;
+        padding: 12px;
+        border-radius: 55%;
+    }
+
+    .size {
+        height: 110px;
+        width: 110px;
+    }
+
+    .interests-container {
+        margin-left: 50px;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    .details {
+        font-size: 25px;
+    }
+
+    .person-name-container {
+        margin-left: 30px;
+    }
+
+    .parson-name {
+        font-size: 40px;
+    }
+
+    .icon {
+        font-size: 90px;
+        padding: 18px;
+        border-radius: 60%;
+    }
+
+    .size {
+        height: 130px;
+        width: 130px;
+    }
+
+    .interests-container {
+        margin-left: 60px;
+    }
+
+}
